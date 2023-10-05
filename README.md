@@ -1,6 +1,8 @@
 # Internpedia
 
 Chris
+Michael
+Joe Mama
 
 # Getting Started with Create React App
 
