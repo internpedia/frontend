@@ -1,6 +1,7 @@
 # Internpedia
 
 Chris
+Angelica
 
 # Getting Started with Create React App
 
