@@ -4,6 +4,8 @@ Chris
 Michael
 Joe Mama
 
+"sorry I accidentally downloaded malware in the file" - Jess 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
