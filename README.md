@@ -1,9 +1,11 @@
 # Internpedia
 
 Chris
+Sia
 Angelica
 Michael
 Joe Mama
+
 
 # Getting Started with Create React App
 
