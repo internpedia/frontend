@@ -1,11 +1,36 @@
-import React from 'react'
-import styles from '../styles/Homepage.module.css'
+import React from 'react';
 
-export default function Homepage() {
+//Some changes made here
+
+function Homepage() {
   return (
-    /* TODO!! */
-    <div>
-        This is your homepage
+    <div className="App">
+      <header className="App-header">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href=".src/components/Homepage.css"/>
+</head>
+<body>
+<header>
+        <div class="header-container">
+            <h1>Find Your Dream Internship</h1>
+        </div>
+    </header>
+    <div class="container">
+    <div class="text-section">
+      <h2>Trending Reviews Of The Week</h2>
     </div>
-  )
+        <div class="box">Review</div>
+        <div class="box">Review</div>
+        <div class="box">Review</div>
+        <div class="box">Review</div>
+        <div class="box">Review</div>
+    </div>
+</body>
+</html>
+      </header>
+    </div>
+  );
 }
+
+export default Homepage;
