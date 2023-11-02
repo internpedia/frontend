@@ -1,0 +1,6 @@
+export var pale_blue = "#B0EDF4"
+export var rich_black = "#011012"
+export var vivid_sky_blue = "#0ADDF8"
+export var white = "#FFFFFF"
+export var grey = "#6B7280"
+export var black = "#000000"
