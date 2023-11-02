@@ -1,17 +1,21 @@
 .headerContainer {
-    /* width: calc(100vw -1000px); */
-    height: 10vh;
-    min-height: 80px;
+  /* width: calc(100vw -1000px); */
+  height: 10vh;
+  min-height: 80px;
 
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .inlineContent {
-    flex-direction: row;
-    display: flex;
+  flex-direction: row;
+  display: flex;
 }
