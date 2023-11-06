@@ -5,6 +5,8 @@ import Header from "./components/Header";
 // import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Test from "./pages/TestPage";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Link } from 'react-router-dom';
 
@@ -24,6 +26,8 @@ function App() {
             {/* <Route path="/about" element={<About/>} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/test" element={<Test />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </BrowserRouter>
       </main>
