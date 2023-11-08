@@ -1,0 +1,97 @@
+.loginAll{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.loginHeader {
+    font-family: "Inter Regular";
+    font-size: 50px;
+    font-weight: bold;
+    height: 45px;
+}
+
+.belowHeader{
+    margin-top: 0px;
+    font-family: "Inter Regular";
+    font-size: 20px;
+}
+
+.loginBox{
+    margin-top: 40px;
+    width: 650px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.userName{
+    margin-top: 50px;
+}
+
+.password{
+    margin-top: 30px;
+}
+
+
+.responseBox label {
+    font-family: "Inter Regular";
+    font-weight: bold; 
+    font-size: 20px;
+  }
+
+.responseBox input {
+    margin-top: 15px;
+    display: flex;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+    height: 40px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.forgot{
+    margin-top: 30px;
+    font-family: "Inter Regular";
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.login{
+    margin-top: 15px;
+    font-family: "Inter Regular";
+    font-weight: bold; 
+    font-size: 20px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.goToSignin{
+    margin-top: 10px;
+    font-family: "Inter Regular";
+    font-size: 20px;
+}
+
+.goToSignin p {
+    font-family: "Inter Regular";
+}
+
+.goToSignin span {
+    font-family: "Inter Regular";
+    font-weight: bold;
+}
+

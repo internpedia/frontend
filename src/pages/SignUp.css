@@ -1,0 +1,107 @@
+.signinAll{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.signinHeader {
+    font-family: "Inter Regular";
+    font-size: 50px;
+    font-weight: bold;
+    height: 45px;
+}
+
+.belowHeader{
+    margin-top: 0px;
+    font-family: "Inter Regular";
+    font-size: 20px;
+}
+
+.signinBox{
+    margin-top: 40px;
+    width: 650px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.firstLast {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.first{
+    width: 100%;
+}
+.last{
+    padding-left: 40px;
+    width: 100%;
+}
+
+.userName{
+    margin-top: 30px;
+}
+
+.email{
+    margin-top: 30px;
+}
+
+.password{
+    margin-top: 30px;
+}
+
+
+.responseBox label {
+    font-family: "Inter Regular";
+    font-weight: bold; 
+    font-size: 20px;
+  }
+
+.responseBox input {
+    margin-top: 15px;
+    display: flex;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+    height: 40px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.signup{
+    margin-top: 40px;
+    font-family: "Inter Regular";
+    font-weight: bold; 
+    font-size: 20px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.goToLogin{
+    margin-top: 10px;
+}
+
+.goToLogin p {
+    font-family: "Inter Regular";
+}
+
+.goToLogin span {
+    font-family: "Inter Regular";
+    font-weight: bold;
+}
+
