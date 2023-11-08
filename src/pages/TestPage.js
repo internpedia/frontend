@@ -5,11 +5,7 @@ import SearchResult from "../components/SearchResult";
 //Some changes made here
 
 function Test() {
-  return (
-    <div>
-      PLACE YOUR COMPONENT/PAGE HERE! <SearchResult />
-    </div>
-  );
+  return <div>TEST HERE</div>;
 }
 
 export default Test;
