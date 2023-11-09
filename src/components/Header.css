@@ -19,3 +19,9 @@
   flex-direction: row;
   display: flex;
 }
+
+.internpedia {
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
