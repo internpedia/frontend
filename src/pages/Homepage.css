@@ -70,7 +70,7 @@
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center text within the box */
   padding: 20px; /* Padding inside the box */
-  color: #black; /* Text color */
+  color: black; /* Text color */
   font-size: 18px; /* Font size */
   position: relative;
 }
@@ -90,7 +90,7 @@
   align-items: center; /* Center content horizontally */
   text-align: center; /* Center text within the box */
   padding: 20px; /* Padding inside the box */
-  color: #black; /* Text color */
+  color: black; /* Text color */
   font-size: 18px; /* Font size */
   position: relative;
 }
@@ -144,13 +144,21 @@ header {
 }
 
 /* Style the header container to center its content */
-.header-container {
+.landing-page-container {
   max-width: 960px; /* Limit the width of the header */
   margin: 0 auto; /* Center the container horizontally */
   display: flex; /* Use a flexbox layout for the header content */
   align-items: center; /* Vertically center the content */
   text-align: center;
+  background-color: #1a1a1a;
 }
+
+.landing-page-container h1 {
+  color: white; /* Light color text for contrast */
+  font-size: 3rem; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
 .description-paragraph {
   width: 50%;  /* Or whatever width you prefer */
   text-align: justify;  /* Optional, for full justification */
