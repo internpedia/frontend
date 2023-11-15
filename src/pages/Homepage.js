@@ -4,11 +4,11 @@ import './Homepage.css';
 function Homepage() {
   return (
     <div className="Homepage">
-      <header className="App-header">
+      <section className="landing-page-section">
         <div className="landing-page-container">
           <h1>Find Your Dream Internship</h1>
         </div>
-      </header>
+      </section>
 
       <div className="bigcontainer">
         <div className="text-section">
