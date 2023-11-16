@@ -18,10 +18,16 @@
 .inlineContent {
   flex-direction: row;
   display: flex;
+  align-items: center;
 }
 
 .internpedia {
   @media (max-width: 800px) {
     display: none;
   }
+}
+
+.headerLogo {
+  width: auto;
+  object-fit: contain;
 }

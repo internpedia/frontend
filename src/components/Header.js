@@ -14,8 +14,10 @@ function Header() {
       style={{ backgroundColor: rich_black, color: white }}
     >
       <div className="inlineContent">
-        <div class="logo">Pfp</div>
-        <div class="internpedia" style={{ marginLeft: "24px" }}>
+        <div class="logo">
+          <img src="/images/IP_LOGO.png" alt='logo' className="headerLogo" style={{ width: '40px', height: '40px' }}/>
+        </div>
+        <div class="internpedia" style={{ marginLeft: "12px" }}>
           INTERNPEDIA
         </div>
       </div>
