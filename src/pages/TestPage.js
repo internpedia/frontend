@@ -5,7 +5,8 @@ import SearchResult from "../components/SearchResult";
 //Some changes made here
 
 function Test() {
-  return <div>TEST HERE</div>;
+  return
+ 
 }
 
 export default Test;
