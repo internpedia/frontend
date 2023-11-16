@@ -16,22 +16,24 @@ function App() {
     <>
       <Header />
       <main>
-        {/* <>
+        <body>
+          {/* <>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
     </> */}
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            {/* <Route path="/about" element={<About/>} /> */}
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/test" element={<Test />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/search" element={<SearchPage />} />
-          </Routes>
-        </BrowserRouter>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              {/* <Route path="/about" element={<About/>} /> */}
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/test" element={<Test />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<SignUp />} />
+              <Route path="/search" element={<SearchPage />} />
+            </Routes>
+          </BrowserRouter>
+        </body>
       </main>
     </>
   );
