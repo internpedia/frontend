@@ -5,10 +5,7 @@ import { Link, BrowserRouter as Router } from "react-router-dom";
 
 function Header() {
   return (
-    <div
-      className="headerContainer"
-      style={{ backgroundColor: rich_black, color: white }}
-    >
+    <div className="headerContainer">
       <div className="inlineContent">
         <div class="logo">
           <img
@@ -24,11 +21,11 @@ function Header() {
       </div>
       <div className="inlineContent">
         <Router>
-          <Link to="/">Write a Review</Link>
-          <Link to="/" style={{ marginLeft: "15px", marginRight: "15px" }}>
+          <Link className="Header-link" to="/">Write a Review</Link>
+          <Link className="Header-link" to="/">
             Contact Us
           </Link>
-          <Link to="/">Profile</Link>
+          <Link className="Header-link" to="/">Profile</Link>
         </Router>
       </div>
     </div>

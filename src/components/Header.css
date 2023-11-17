@@ -2,6 +2,8 @@
   /* width: calc(100vw -1000px); */
   height: 10vh;
   min-height: 80px;
+  background-color: #011012;
+  color: white;
 
   flex-direction: row;
   display: flex;
@@ -30,4 +32,16 @@
 .headerLogo {
   width: auto;
   object-fit: contain;
+  cursor: pointer;
+}
+.Header-link{
+  color: white;
+  text-decoration: none;
+  transition: all .5sec ease;
+  margin:0 15px;
+}
+
+.Header-link:hover{
+  margin-top: -2px;
+  color: aquamarine;
 }

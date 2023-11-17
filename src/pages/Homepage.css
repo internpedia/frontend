@@ -37,6 +37,10 @@
   font-size: 3rem; /* Adjust the font size as needed */
   margin: 0; /* Remove default margin */
 }
+.landing-page-container h1:hover{
+  color: aquamarine;
+  cursor: pointer;
+}
 
 .App-link {
   color: #61dafb;
