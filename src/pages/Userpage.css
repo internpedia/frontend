@@ -1,0 +1,311 @@
+.user{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPanel{
+    width: 25%;
+    box-shadow: 5px 0 20px -5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+.imgDash{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 18%; 
+    gap: 5%;
+}
+
+.dashTab{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter Regular"; 
+    font-weight: bold; 
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.2); 
+    height: 8%;
+    justify-content: space-between;
+    border-top-right-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    width: 99%; 
+}
+
+.imgReview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 18%; 
+    gap: 5%;
+}
+
+.reviewsTab{
+    margin-top:3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8%; /*changes*/
+    font-size: small;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: "Inter Regular";
+}
+
+.imgFav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 18%; 
+    gap: 10%;
+}
+
+.arrowBox{
+    display: flex;
+    border-radius: 50%;
+    background-color: white;
+    height: 62%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.signOut{
+    margin-left: 10%;
+    margin-top: 100%;
+    width: 40%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.rightPanel{
+    margin-left: 5%;
+    width: 50%;
+}
+
+.userHeader{
+    margin-top: 3%;
+    margin-left: 0%;
+    font-family: "Inter Regular";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    width: 16%;
+    padding: 0.5%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: large;
+    white-space: nowrap;
+}
+
+.userrow1{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.pfpname {
+    display: flex;
+    flex-direction: row;
+    width: 21%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pfp {
+    width: 5vw; 
+    height: 5vw;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%; 
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nameCol{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nameCol h1{
+    margin: 5%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: medium;
+}
+
+.nameCol h2{
+    margin: 5%;
+    font-family: "Inter Regular";
+    font-weight: normal;
+    font-size: medium;
+}
+
+.nameCol p{
+    margin: 5%;
+    font-family: "Inter Regular";
+    font-size: small;
+    color: gray;
+}
+
+.buttons1{
+    display: flex;
+    width: 40%;
+    gap: 10%;
+} 
+
+.updateBut {
+    width: 40%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.deleteBut {
+    width: 40%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+    height: 45px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+}
+
+.FL{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.first1{
+    width: 100%;
+}
+
+.last {
+    padding-left: 40px;
+    width: 100%;
+  }
+  
+  .userName {
+    margin-top: 30px;
+  }
+  
+  .email {
+    margin-top: 30px;
+  }
+  
+  .password {
+    margin-top: 30px;
+  }
+  
+  .responseBox1 label {
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .responseBox1 input {
+    margin-top: 10px;
+    display: flex;
+    font-family: "Inter Regular";
+    font-size: small;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    height: 30px;
+    border-radius: 7px;
+    width: 100%;
+  }
+
+.userrow3 {
+    margin-top: 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.userrow4 {
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.userrow5 {
+    margin-top: 3%;
+}
+
+.newoldPass{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.currentPass{
+    width: 100%;
+}
+
+.newPass{
+    padding-left: 40px;
+    width: 100%;
+}
+
+.userrow6 {
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+.userrow7{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
+    margin-right: 5%;
+}
+
+.cancel{
+    width: 20%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+    height: 45px;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+}
+
+.save{
+    width: 20%;
+    font-family: "Inter Regular";
+    font-weight: bold;
+    font-size: small;
+    height: 45px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}

@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Test from "./pages/TestPage";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import Userpage from "./pages/Userpage";
 import SearchPage from "./pages/SearchPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Link } from 'react-router-dom';
@@ -29,6 +30,7 @@ function App() {
             <Route path="/test" element={<Test />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/userpage" element={<Userpage />} />
             <Route path="/search" element={<SearchPage />} />
           </Routes>
         </BrowserRouter>
