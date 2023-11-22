@@ -17,11 +17,13 @@ function App() {
     <>
       <Header />
       <main>
-        {/* <>
+        <body>
+          {/* <>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
     </> */}
+
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Homepage />} />
@@ -34,6 +36,7 @@ function App() {
             <Route path="/search" element={<SearchPage />} />
           </Routes>
         </BrowserRouter>
+
       </main>
     </>
   );

@@ -11,7 +11,12 @@ function Header() {
     >
       <div className="inlineContent">
         <div class="logo">
-          <img src="/images/IP_LOGO.png" alt='logo' className="headerLogo" style={{ width: '40px', height: '40px' }}/>
+          <img
+            src="/images/IP_LOGO.png"
+            alt="logo"
+            className="headerLogo"
+            style={{ width: "40px", height: "40px" }}
+          />
         </div>
         <div class="internpedia" style={{ marginLeft: "12px" }}>
           INTERNPEDIA
