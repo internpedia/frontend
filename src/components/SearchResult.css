@@ -1,0 +1,31 @@
+
+
+.listingBox {
+    border: 1px solid #848484;
+    border-radius: 15px;
+}
+
+.listingBox h1 {
+    font-family: 'Inter-Bold', sans-serif;
+}
+
+.listingBox h2 {
+    font-family: 'Inter-Black', sans-serif;
+}
+
+.text {
+    font-family: 'Inter-Regular';
+}
+
+.ratingNum {
+    font-family: 'Inter-Regular';
+    font-size: 15px;
+}
+
+.supRow {
+    gap: 10px;
+}
+
+.supRow img {
+    height: 25px;
+}

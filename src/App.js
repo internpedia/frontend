@@ -17,7 +17,7 @@ function App() {
     <>
       <Header />
       <main>
-        <body>
+        
           {/* <>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>

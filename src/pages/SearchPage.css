@@ -1,3 +1,7 @@
+body {
+  overflow-y: auto;
+}
+
 .searchPage {
   display: flex;
   flex-direction: row;
@@ -9,15 +13,55 @@
   flex-direction: column;
   width: 400px;
   padding: 10px;
-  background-color: aqua;
 }
 
-.searchBar {
-  background-color: blue;
+.searchBox {
+  border: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .results {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 4%;
+  row-gap: 35px;
+}
+
+.dropdown {
+  height: 6px;
+}
+
+.noResult {
+  display: flex;
+  align-items: space-between;
+}
+
+.noResult p {
+  font-family: 'Inter', sans-serif;
+  font-weight: light;
+  font-size: 16px;
+}
+
+.filterText {
+  font-family: 'Inter-Black', sans-serif;
+  font-size: 20px;
+}
+
+.subHeading {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 17px;
+}
+
+.checkFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  height: 35px;
+}
+
+.checkFilter p {
+  font-family: 'Roboto';
+  font-size: 14px;
 }
