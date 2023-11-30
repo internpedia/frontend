@@ -1,28 +1,28 @@
 @font-face {
   font-family: "Inter", sans-serif;
-  src: url("../public/fonts/Inter-Bold.woff") format("woff");
-  src: url("../public/fonts/Inter-Black.woff") format("woff");
-  src: url("../public/fonts/Inter-Italic.woff") format("woff");
+  src: url("./assets/fonts/Inter-Bold.woff") format("woff");
+  src: url("./assets/fonts/Inter-Black.woff") format("woff");
+  src: url("./assets/fonts/Inter-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Inter-Light";
-  src: url("../public/fonts/Inter-Light.ttf");
+  src: url("./assets/fonts/Inter-Light.ttf");
 }
 
 @font-face {
   font-family: "Inter-Regular";
-  src: url("../public/fonts/Inter-Regular.ttf");
+  src: url("./assets/fonts/Inter-Regular.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../public/fonts/Roboto-Light.ttf");
+  src: url("./assets/fonts/Roboto-Light.ttf");
 }
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("../public/fonts/Roboto-Regular.ttf");
+  src: url("./assets/fonts/Roboto-Regular.ttf");
 }
 
 body {

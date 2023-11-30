@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./SearchPage.css";
 import SearchResult from "../components/SearchResult";
 import dropDown from './images/Vector.png';
+import { useLocation } from 'react-router-dom'
 
 
 function SearchPage() {
-  const [searchQuery, setSearchQuery] = useState("");
+  const location = useLocation()
+  const searched = location != null ? location.state.searched : ""
+  const [searchQuery, setSearchQuery] = useState(searched);
   const [searchResults, setSearchResults] = useState([]);
   const [allInternships, setAllInternships] = useState([]);
 
