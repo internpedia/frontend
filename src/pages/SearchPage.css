@@ -11,20 +11,29 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 280px;
   padding: 10px;
 }
 
 .searchBox {
   border: none;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+  width: 95%
+}
+.searchBox img {
+  height: 50%;
 }
 
 .results {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 4%;
+  column-gap: 3%;
   row-gap: 35px;
 }
 
@@ -38,18 +47,18 @@ body {
 }
 
 .noResult p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto';
   font-weight: light;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .filterText {
-  font-family: 'Inter-Black', sans-serif;
+  font-family: 'Inter-Bold';
   font-size: 20px;
 }
 
 .subHeading {
-  font-family: 'Inter-Bold', sans-serif;
+  font-family: 'Inter-Bold';
   font-size: 17px;
 }
 
@@ -64,4 +73,26 @@ body {
 .checkFilter p {
   font-family: 'Roboto';
   font-size: 14px;
+}
+
+.filterSearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid black;
+  padding-left: 7px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.locDropDown {
+  height: 35px;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 7px;
+}
+
+.locDropDown option[value="Select"] {
+  font-family: 'Roboto'
 }

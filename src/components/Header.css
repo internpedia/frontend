@@ -69,6 +69,7 @@
 .profileLinkContent {
   display: flex;
   align-items: center; 
+  font-family: 'DM Mono', monospace;
 }
 
 .profileIcon {  
@@ -87,6 +88,7 @@
 .arrowLinkContent {
   display: flex;
   align-items: center;
+  font-family: 'DM Mono', monospace;
 }
 
 .arrowIcon {

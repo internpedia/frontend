@@ -9,13 +9,14 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Userpage from "./pages/Userpage";
 import SearchPage from "./pages/SearchPage";
+import ReviewPage from "./pages/ReviewPage"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Header />
+      
       <main>
         
           {/* <>
@@ -25,6 +26,7 @@ function App() {
     </> */}
 
         <BrowserRouter>
+          <Header />
           <Routes>
             <Route exact path="/" element={<Homepage />} />
             {/* <Route path="/about" element={<About/>} /> */}
@@ -34,6 +36,7 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/userpage" element={<Userpage />} />
             <Route path="/search" element={<SearchPage />} />
+            <Route path="/review" element={<ReviewPage />} />
           </Routes>
         </BrowserRouter>
 

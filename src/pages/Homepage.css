@@ -41,6 +41,7 @@
 
 .hero-subtitle {
   font-size: 16px;
+  font-family: 'Inter-Regular';
 }
 
 .landing-page-container h1 {
@@ -115,7 +116,7 @@
 
 .bigcontainer2 h4 {
   color: white;
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter-Light';
   font-size: 250%;
   text-align: center;
   padding: 5%;
@@ -125,7 +126,7 @@
   color: white;
   text-align: center;
   margin-top: 5%;
-  font-family: 'Inter-Regular', sans-serif;
+  font-family: 'Inter-Light';
 }
 
 .box2 {
@@ -204,6 +205,7 @@ header {
   cursor: pointer;
   padding: 10px 20px; 
   right: -10px;
+  
 }
 
 .search-icon {
@@ -227,7 +229,7 @@ header {
   cursor: pointer;
   outline: none;
   transition: background-color 0.3s, color 0.3s;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter-Light';
   font-size: 0.5rem;
 }
 
@@ -239,15 +241,44 @@ header {
   background-color: #0ADDF8;
   color: black;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter-Light';
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-button.industry img {
+  height: 4px;
 }
 
 .filter-button.career-role {
   background-color: transparent;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter-Light';
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-button.career-role img {
+  height: 8px;
 }
 
 .search-icon {
   width: 15px; /* Adjust the size as needed */
   height: 15px; /* Adjust the height as needed */
+}
+
+.review-invitation {
+  font-family: 'Inter-Light';
+  font-size: 17px;
+}
+
+.review-link {
+  font-family: 'Inter-Light';
+  font-size: 17px;
+  text-decoration: underline;
 }
