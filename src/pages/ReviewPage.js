@@ -6,54 +6,80 @@ import "./ReviewPage.css";
 function ReviewPage() {
   return (
     <div>
-    <div className= "writeReview">
-        <h1 className = 'writereviewHeader'> Write a Reviw: UI/UX designer </h1>
-        <p className = "belowHeader">Made : San Francisco, CA</p>
-      <div className = "writereviewBox"> 
-        <div className = "rating">
-        <div className= "first">
-          <form className ="responseBox">
-            <label> Rating
-            </label>
-            <input type = 'text' id = "FN"></input>
+        <p className = "writeReviewHeader"> Write a Review: UI/UX designer </p>
+        <p className = "belowHeader"> Meta : San Francisco, CA</p>
+
+    <div className = "writereviewBox"> 
+
+    <div className="outer-box">
+    <span class="star">&#9733;</span>
+           <p class="text">Rating:</p>
+           <div class="star-rating">
+               <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+
+       </div>
+
+        <div className="outer-box">
+        <span class="star">&#9733;</span>
+           <p class="text">Title:</p>
+          <div className="responseBox">
+              <input type="text" id="inputBox" placeholder="Give your review a title..."></input> 
+          </div>
+       </div>
+      
+      <div class="outer-box">
+      <span class="star">&#9733;</span>
+           <p class="text">Description:</p>
+          <div className="responseBox">
+            <input type="text" id="inputBox" placeholder="Write your review here..."></input> 
+          </div>
+       </div>
+
+       <div className="outer-box">
+           <p class="text">How was the interview process like for you?</p>
+          <form className="responseBox">
+              <input type="text" id="inputBox" placeholder="Describe your experience here..."></input> 
           </form>
-        </div>
-        <div className= "title">
-        <form className ="responseBox">
-            <label> Title
-            </label>
-            <input type = 'text' id = "LN"></input>
+       </div>
+
+      <div className="outer-box">
+           <p class="text">Compensation</p>
+           <div class="circle"></div> 
+           <p>Unpaid</p>
+           <div class="circle"></div>
+           <p>Paid</p>
+       </div>
+
+      <div className="outer-box">
+           <p class="text">Did you get a return offer?</p>
+           <p>no</p>
+          <div class = "oval" > </div>
+          <p>yes</p>
+       </div>
+
+        <div className="outer-box">
+           <p class="text">Skills</p>
+          <form className="responseBox">
+            <input type="text" id="inputBox" placeholder="Keyword"></input> 
           </form>
-        </div>
-        </div>
-        <div className = "description"> 
-        <form className ="responseBox">
-            <label> How was the interview process like for you? 
-            </label>
-            <input type = 'text' id = "UN"></input>
+       </div>
+
+        <div className="outer-box">
+           <p class="text">Attach Images</p>
+          <form className="attachImages">
+              <input type = 'text' id = "EM" placeholder="Upload Files"></input> 
           </form>
+       </div>
+
         </div>
-        <div className = "email">
-        <form className ="responseBox">
-            <label> Email Address
-            </label>
-            <input type = 'text'  id = "EM"></input>
-          </form>
-        </div>
-        <div className = "password"> 
-        <form className ="responseBox">
-            <label> Password
-            </label>
-            <input type = 'text'  id = "PS"></input>
-          </form>
-        </div>
-        <button className = "signup"> Sign Up </button>
-        <div className = "goToLogin"> 
-        <p>Already have an account? <span >Log In.</span></p>
-        </div>
+
+        <button className = "signup"> Submit </button>
       </div>
-      </div>
-    </div>
   );
 }
 
