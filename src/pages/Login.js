@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 import getWindowDimensions from "../hooks/getWindowDimensions";
+import { NavLink } from "react-router-dom";
 
 //Some changes made here
 
@@ -29,7 +30,7 @@ function Login() {
           <button className="login">Log In</button>
           <div className="goToSignin">
             <p>
-              Don't have an acount?<span> Sign Up.</span>
+              Don't have an acount?<span> <NavLink to='/signup' style={{textDecoration:'none', color:'black'}}>Sign Up.</NavLink> </span>
             </p>
           </div>
         </div>

@@ -4,18 +4,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .signinHeader {
-  font-family: "Inter Regular";
+  font-family: "Inter-Bold";
   font-size: 50px;
-  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .belowHeader {
   margin-top: 0px;
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
   font-size: 20px;
   text-align: center;
   @media (max-width: 500px) {
@@ -24,7 +24,7 @@
 }
 
 .signinBox {
-  margin-top: 40px;
+  margin-top: 0px;
   width: 60%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
@@ -64,15 +64,14 @@
 }
 
 .responseBox label {
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
   font-size: 20px;
 }
 
 .responseBox input {
   margin-top: 15px;
   display: flex;
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
   font-size: 18px;
   flex-direction: column;
   border: none;
@@ -84,8 +83,7 @@
 
 .signup {
   margin-top: 40px;
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
   font-size: 20px;
   height: 45px;
   border-radius: 7px;
@@ -99,10 +97,10 @@
 }
 
 .goToLogin p {
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
+  font-size: 20px;
 }
 
 .goToLogin span {
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
 }

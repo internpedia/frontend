@@ -16,7 +16,7 @@
 
 .belowHeader {
   margin-top: 0px;
-  /* font-family: "Inter Regular"; */
+  font-family: "Inter-Regular";
   font-size: 20px;
   padding: 20px;
   padding-left: 50px;
@@ -46,15 +46,14 @@
 }
 
 .responseBox label {
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
   font-size: 20px;
 }
 
 .responseBox input {
   margin-top: 15px;
   display: flex;
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
   font-size: 18px;
   flex-direction: column;
   border: none;
@@ -66,15 +65,13 @@
 
 .forgot {
   margin-top: 30px;
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
   font-size: 20px;
 }
 
 .login {
   margin-top: 15px;
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
   font-size: 20px;
   height: 45px;
   border-radius: 7px;
@@ -85,15 +82,14 @@
 
 .goToSignin {
   margin-top: 10px;
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
   font-size: 20px;
 }
 
 .goToSignin p {
-  font-family: "Inter Regular";
+  font-family: "Inter-Regular";
 }
 
 .goToSignin span {
-  font-family: "Inter Regular";
-  font-weight: bold;
+  font-family: "Inter-Bold";
 }

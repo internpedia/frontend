@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchResult.css";
 import pointIcon from './images/Vector 2.png';
 import StarRating from "./StarRating";
+import sampleLogo from './images/sampleLogo.png'
 
 //Some changes made here
 
@@ -13,7 +14,7 @@ function SearchResult({data}) {
   return (
     <div className="listingBox"
       style={{
-        width: "307px",
+        width: "300px",
         height: "350px",
         display: "flex",
         flexDirection: "column",
@@ -22,8 +23,8 @@ function SearchResult({data}) {
         justifyContent:"center",
         gap:"3%",
       }}>
-      <div style={{display: "flex", flexDirection:"column", alignItems:"center", gap: "6px"}}>
-        <img src={company.logo} alt={company.title} ></img>
+      <div style={{display: "flex", flexDirection:"column", alignItems:"center", gap: "10px", width:'100%'}}>
+        <img src={sampleLogo} alt={company.title} style={{height: '45px'}}></img>
         <h1 style={{ fontSize: "15px", margin: "0px", padding: "0px" }}>{internshipName}</h1>
         <h2 style={{ fontSize: "12px", margin: "0px", padding: "0px" }}>
           {company.title}

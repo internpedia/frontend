@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import './Homepage.css';
 import { Link } from "react-router-dom";
 import searchIcon from "../assets/images/search-glass-icon.png";
-
+import dropDown from './images/Vector.png';
+import blueDropDown from './images/blueDropdown.png';
+import arrowIcon from './images/header-arrow-icon.png'
 
 
 function Homepage() {
@@ -17,7 +19,7 @@ function Homepage() {
       <section className="landing-page-section">
         <div className="landing-page-container">
           
-          <p className="hero-subtitle">Data-driven reviews by students, for students</p>
+          <p className="hero-subtitle">Data-driven reviews by students, for students.</p>
           <h1>Find Your Dream Internship</h1>
           
           <div className="search-container">
@@ -27,12 +29,17 @@ function Homepage() {
             </Link>
           </div>
 
-          <div className="filter-buttons">
-            <button className="filter-button industry">Industry ▼</button>
-            <button className="filter-button career-role">Career Role ▼</button>
+          <div className="filter-buttons" style={{marginBottom:'20px', marginTop:'30px'}}>
+            <button className="filter-button industry">Industry <img src={dropDown}></img></button>
+            <button className="filter-button career-role">Career Role <img src={blueDropDown}></img></button>
           </div>
-
-          <p className="review-invitation">Have an internship you want to review? <span className="write-review-link">Write A Review</span></p>
+          <div style={{display:"flex", justifyContent:"center", alignItems:'center', gap:'10px'}}>
+            <p className="review-invitation">Have an internship you want to review? </p>
+            <p className="review-link"> Write A Review</p>
+            <img src={arrowIcon} style={{height: "10px"}}></img>
+            
+          </div>
+          
         </div>
       </section>
 
