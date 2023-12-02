@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
 .headerContainer {
   /* width: calc(100vw -1000px); */
   height: 10vh;
@@ -9,11 +11,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* padding-top: 20px; */
   padding-left: 30px;
   padding-right: 30px;
 
   position: -webkit-sticky; /* Safari */
   position: sticky;
+  z-index: 100;
   top: 0;
 }
 
@@ -24,6 +28,12 @@
 }
 
 .internpedia {
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
+  color: #B0EDF4;
+  margin-left: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
   @media (max-width: 800px) {
     display: none;
   }
@@ -39,9 +49,56 @@
   text-decoration: none;
   transition: all .5sec ease;
   margin:0 15px;
+  padding: 5px;
+  border-radius: 2em;
+  border: black;
 }
 
 .Header-link:hover{
   margin-top: -2px;
   color: aquamarine;
+  border: 2px aqua;
+}
+
+.profileLink {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.profileLinkContent {
+  display: flex;
+  align-items: center; 
+}
+
+.profileIcon {  
+  padding-left: 4px;
+  width: 15px; 
+  height: 15px;
+  margin-left: 5px; 
+}
+
+.arrowLink {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.arrowLinkContent {
+  display: flex;
+  align-items: center;
+}
+
+.arrowIcon {
+  padding-left: 3px;
+  width: 10px; 
+  height: 10px; 
+  margin-left: 5px; 
+}
+
+.logoLink {
+  color: inherit; /* Prevents the link from having a different text color */
+  text-decoration: none; /* Removes underline from the link */
+  display: flex;
+  align-items: center;
 }
