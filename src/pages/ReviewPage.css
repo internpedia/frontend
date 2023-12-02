@@ -1,41 +1,78 @@
-.writereview {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
+ 
   .writeReviewHeader {
-    font-family: "Inter Regular";
-    font-size: 50px;
+    margin-top: 0px;
     font-weight: bold;
+    font-family: "Inter Regular";
+    font-size: 30px;
+    text-align: center;
+    @media (max-width: 500px) {
+      display: none;
   }
-  
+}
   .belowHeader {
     margin-top: 0px;
     font-family: "Inter Regular";
     font-size: 20px;
     text-align: center;
-    @media (max-width: 500px) {
-      display: none;
-    }
   }
   
   .writereviewBox {
-    margin-top: 40px;
     width: 60%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 60px;
-    padding-right: 60px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+    padding-left: 300px;
+    padding-right: 300px;
     padding-bottom: 30px;
+    margin-top: 0px;
   }
-  
+  .circle {
+    width: 20px; /* Size of the circle */
+    height: 20px; /* Size of the circle */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: white; /* Circle color */
+    border: 2px solid black; /* Black border */
+    margin: 10px; /* Space between the circles */
+}
+  .star-rating {
+    font-size: 24px;
+    color: gold;
+}
+
+.star-rating span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+  .outer-box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box .star {
+    position: absolute;
+    top: 10px; /* Distance from top */
+    right: 10px; /* Distance from right */
+    color: red; /* Star color */
+    font-size: 15px; /* Adjust size as needed */
+}
+
+.text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
   .rating {
     margin-top: 50px;
     display: flex;
@@ -46,42 +83,55 @@
   .first {
     width: 100%;
   }
+
+
   .title {
     padding-left: 40px;
     width: 100%;
   }
   
-  .description {
-    margin-top: 30px;
-  }
-  
-  .email {
-    margin-top: 30px;
-  }
-  
-  .password {
-    margin-top: 30px;
-  }
-  
-  .responseBox label {
+  .responseBox {
     font-family: "Inter Regular";
     font-weight: bold;
     font-size: 20px;
   }
-  
-  .responseBox input {
+
+  .responseBox {
     margin-top: 15px;
     display: flex;
     font-family: "Inter Regular";
     font-size: 18px;
     flex-direction: column;
-    border: none;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
     height: 40px;
-    border-radius: 7px;
-    width: 100%;
+    border-radius: 7px black;
+    width: 90%;
+    margin: 0px;
   }
-  
+
+  .attachImages {
+    display: flex;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    flex-direction: column;
+    height: 70px;
+    border-radius: 7px black;
+    width: 30%;
+    margin: 0px;
+    justify-content: center;
+  }
+
+
+  .outer-box {
+    margin-top: 15px;
+    width: 100%; /* Width of the outer box */
+    height: 90px; /* Height of the outer box */
+    display: flex;
+    justify-content: center; /* Center the inner box horizontally */
+    align-items: center; /* Center the inner box vertically */
+    border-radius: 5px;
+}
+
+
   .signup {
     margin-top: 40px;
     font-family: "Inter Regular";
@@ -92,18 +142,23 @@
     background-color: black;
     color: white;
     border-color: black;
+    justify-content: center;
+    align-items: center;
   }
   
-  .goToLogin {
-    margin-top: 10px;
-  }
-  
-  .goToLogin p {
+  .oval {
+    margin-top: 15px;
+    display: flex;
     font-family: "Inter Regular";
+    font-size: 18px;
+    flex-direction: column;
+    height: 25px;
+    width: 30%;
+    background-color: white; /* Circle color */
+    border: 1px solid black; /* Black border */
+    margin: 20px; /* Space between the circles */
+    border-radius: 15px;
   }
+
   
-  .goToLogin span {
-    font-family: "Inter Regular";
-    font-weight: bold;
-  }
-  
+
