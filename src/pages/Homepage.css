@@ -29,34 +29,55 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .landing-page-container {
-  max-width: 1080px; /* Limit the width of the header */
+  max-width: 1080px; 
   width:100%;
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 0 auto; 
   text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .hero-subtitle {
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Inter-Regular';
+}
+
+.rounded-box {
+  background-color: #00161C; /* or any color you want */
+  border-radius: 8px; 
+  padding: 10px 20px; /* Adjust for space around the text */
+  display: inline-flex; /* This makes the background only as wide as the content */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  gap: 10px; /* If you have icons or other elements, adjust the gap as needed */
+  margin: 20px 0; /* Add some margin if needed */
+  color: white; /* Adjust text color */
 }
 
 .landing-page-container h1 {
   margin: auto;
-  color: white; /* Light color text for contrast */
-  font-size: 5rem; /* Adjust the font size as needed */
+  color: white; 
+  font-size: 5rem; 
   padding-bottom: 20px;
   background: -webkit-linear-gradient(#eee, #0ADDF8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: normal;
 }
+
 .landing-page-container h1:hover{
   color: aquamarine;
   cursor: pointer;
   -webkit-text-fill-color: #0ADDF8;
+}
+
+.non-bold-title {
+  font-weight: normal;
 }
 
 .App-link {
@@ -181,31 +202,33 @@ header {
 
 
 .search-container {
+  width: 75%; /* Adjust this percentage as needed */
+  max-width: 1080px; /* This will ensure the search bar doesn't exceed the parent container's width */
   display: flex;
   justify-content: center; /* Horizontally center the contents */
   align-items: center; /* Vertically center the contents */
   margin-top: 20px; /* Adjust the space above the search bar */
+  position: relative;
 }
 
-/* Search input field */
 .search-input {
-  flex-grow: 1; 
+  width: calc(100% - 40px); /* Adjust for padding and button width */
   border-radius: 2em;
   border: 2px solid #fff;
   background-color: #011012;
-  color: #fff;
-  padding: 10px;
-  margin-right: -50px;
+  color: #C8C8C8;
+  padding: 10px 20px;
+  margin: 0;
 }
 
-/* Search button */
 .search-button {
+  position: absolute;
+  right: 5px;
+  top: -6px;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 10px 20px; 
-  right: -10px;
-  
+  padding: 10px;
 }
 
 .search-icon {
@@ -274,11 +297,407 @@ header {
 
 .review-invitation {
   font-family: 'Inter-Light';
-  font-size: 17px;
+  font-size: 12px;
 }
 
 .review-link {
   font-family: 'Inter-Light';
-  font-size: 17px;
+  font-size: 12px;
   text-decoration: underline;
+}
+
+.landing-page-intro {
+  font-family: 'Inter-Light';
+  font-size: 12px;
+  max-width: 500px; 
+  line-height: 1.5; 
+  margin-top: 69px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block; 
+  overflow: hidden;
+}
+
+.trending-internships-section {
+  background-color: #011012;
+  display: flex;
+  justify-content: center; /* Horizontally center children */
+  align-items: center;
+}
+
+.trending-internships {
+  background-color: #e7f1f2;
+  border-radius: 16px;
+  height: 1608px;
+  overflow: hidden;
+  width: 1808px;
+  transform: scale(0.95);
+  transform-origin: top center;
+}
+
+.trending-internships .overlap {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 1608px;
+  position: relative;
+  width: 1809px; 
+}
+
+.trending-internships .div-framer {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1808px;
+}
+
+.trending-internships .overlap-group {
+  height: 82px;
+  position: relative;
+}
+
+.trending-internships .SVG {
+  height: 18px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 18px;
+}
+
+.trending-internships .p-framer-text {
+  height: 16px;
+  left: 138px;
+  position: absolute;
+  top: 33px;
+  width: 1630px;
+}
+
+.trending-internships .text-wrapper {
+  color: #011012;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14.6px;
+  font-weight: 400;
+  height: 17px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.trending-internships .pseudo {
+  border: 1px solid;
+  border-color: #05728066;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1808px;
+}
+
+.trending-internships .div-framer-tro {
+  height: 356px;
+  left: 0;
+  position: absolute;
+  top: 82px;
+  width: 1808px;
+}
+
+.trending-internships .heading-we-connect {
+  color: #011012;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 138px;
+  letter-spacing: 0.1px;
+  line-height: 60px;
+  position: absolute;
+  top: 105px;
+  width: 1098px;
+}
+
+.trending-internships .div {
+  border: 1px solid;
+  border-color: #03353b;
+  border-radius: 16px;
+  height: 1608px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1808px;
+}
+
+.trending-internships .scaled-wrapper {
+  transform: scale(0.80);
+  transform-origin: top left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-internships .SVG-2 {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 864px;
+  width: 1728px;
+}
+
+.trending-internships .next-button {
+  height: 64px;
+  left: 1557px;
+  position: absolute;
+  top: 400px;
+  width: 64px;
+}
+
+.trending-internships .overlap-group-2 {
+  border-radius: 32px;
+  height: 64px;
+  position: relative;
+}
+
+.trending-internships .next {
+  height: 24px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  width: 24px;
+}
+
+.trending-internships .ellipse {
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 32px;
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.trending-internships .overlap-wrapper {
+  height: 64px;
+  left: 108px;
+  position: absolute;
+  top: 400px;
+  transform: rotate(180deg);
+  width: 64px;
+}
+
+.trending-internships .img {
+  height: 24px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-180deg);
+  width: 24px;
+}
+
+.trending-internships .group {
+  height: 375px;
+  left: 424px;
+  position: absolute;
+  top: 245px;
+  width: 883px;
+}
+
+.trending-internships .group-2 {
+  height: 43px;
+  left: 333px;
+  position: absolute;
+  top: 0;
+  width: 216px;
+}
+
+.trending-internships .star {
+  height: 35px;
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 37px;
+}
+
+.trending-internships .star-2 {
+  height: 35px;
+  left: 46px;
+  position: absolute;
+  top: 2px;
+  width: 37px;
+}
+
+.trending-internships .star-3 {
+  height: 35px;
+  left: 89px;
+  position: absolute;
+  top: 2px;
+  width: 37px;
+}
+
+.trending-internships .star-4 {
+  height: 35px;
+  left: 133px;
+  position: absolute;
+  top: 2px;
+  width: 37px;
+}
+
+.trending-internships .star-5 {
+  height: 35px;
+  left: 176px;
+  position: absolute;
+  top: 2px;
+  width: 37px;
+}
+
+.trending-internships .overlap-2 {
+  height: 304px;
+  left: 0;
+  position: absolute;
+  top: 71px;
+  width: 881px;
+}
+
+.trending-internships .lorem-ipsum-dolor {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 33px;
+  font-weight: 700;
+  height: 221px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 881px;
+}
+
+.trending-internships .group-3 {
+  height: 84px;
+  left: 92px;
+  position: absolute;
+  top: 220px;
+  width: 698px;
+}
+
+.trending-internships .overlap-group-wrapper {
+  height: 84px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 465px;
+}
+
+.trending-internships .overlap-3 {
+  height: 84px;
+  position: relative;
+  width: 469px;
+}
+
+.trending-internships .line {
+  height: 84px;
+  left: 443px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.trending-internships .group-4 {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 469px;
+}
+
+.trending-internships .overlap-group-3 {
+  height: 79px;
+  left: 108px;
+  position: absolute;
+  top: 0;
+  width: 357px;
+}
+
+.trending-internships .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 41px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  width: 232px;
+}
+
+.trending-internships .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 41px;
+  left: 0;
+  letter-spacing: 0.4px;
+  line-height: 25px;
+  position: absolute;
+  top: 38px;
+  width: 357px;
+}
+
+.trending-internships .image-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 38.34px;
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.trending-internships .image {
+  height: 29px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 29px;
+}
+
+.trending-internships .image-2 {
+  height: 54px;
+  left: 484px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 214px;
+}
+
+.trending-internships .div-framer-quk {
+  height: 306px;
+  left: 1px;
+  position: absolute;
+  top: 1268px;
+  width: 1808px;
+}
+
+.trending-internships .we-ve-curated-a-list {
+  color: #011012;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 17.5px;
+  font-weight: 400;
+  left: 138px;
+  letter-spacing: 0.4px;
+  line-height: 26px;
+  position: absolute;
+  top: 56px;
+  width: 580px;
 }
